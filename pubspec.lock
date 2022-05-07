@@ -679,6 +679,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.0"
+  swipe_to:
+    dependency: "direct main"
+    description:
+      name: swipe_to
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   term_glyph:
     dependency: transitive
     description:

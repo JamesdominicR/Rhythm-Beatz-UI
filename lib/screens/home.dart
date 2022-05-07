@@ -168,19 +168,19 @@ class _HomeScreenState extends State<HomeScreen> {
                                   index: index,
                                   audios: widget.audiosongs,
                                 );
-                                Navigator.of(context).push(PageTransition(
-                                  type: PageTransitionType.bottomToTop,
-                                  duration: const Duration(milliseconds: 300),
-                                  child: ScreenPlaying(
-                                    index: index,
-                                    audiosongs: widget.audiosongs,
-                                  ),
-                                ));
+                                // Navigator.of(context).push(PageTransition(
+                                //   type: PageTransitionType.bottomToTop,
+                                //   duration: const Duration(milliseconds: 300),
+                                //   child: ScreenPlaying(
+                                //     index: index,
+                                //     audiosongs: widget.audiosongs,
+                                //   ),
+                                // ));
                               },
                             );
                           });
                     }),
-              ),   
+              ),
             ],
           ),
         ),

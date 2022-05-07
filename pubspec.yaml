@@ -44,6 +44,7 @@ dependencies:
   on_audio_query: ^2.6.0
   shared_preferences: ^2.0.13
   animated_splash_screen: ^1.2.0
+  swipe_to: ^1.0.2
   
   
 
